@@ -1,0 +1,3 @@
+git init .......incializa git en la consola
+git add ........añade u documento a git
+git commit......guarda los cambios hechos en el documento
