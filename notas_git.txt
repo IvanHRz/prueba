@@ -8,12 +8,15 @@ git status -s...-este comando nos muestra estatus de los archivos que se encuent
                 quiere decir que git  aun no tiene un seguimiento de ese archivo                
                 si aparece una A es que git ya esta llevando un seguimiento del archivo
                 -cuando en el status de tu archivo en git aparece una M mayuscula en
-                 rojo significa que guardaste el archivo en tu programa pero que aun no lo guardas en git   
+                 rojo significa que guardaste el archivo en tu programa pero que aun no lo guardas en gito que ha 
+                 tenido alguna modificacion y no lo has guardado aun   
 
 git commit -m "comentario"....con esto guardamos la ultima version del documento y añadimos un comentario
                               esta es la forma en la que guardamos y actualizamos un archivo en git.
 git log --oneline......Este comando nos sirve para ver todos los cambios que has hecho y los comentarios
                        de tu archivo 
+git commit -am "comentario".....esto lo usamo principalmente para hacer el comando commit y el comando add al mismo tiempo 
+                                en un solo comentario  
 git add .  ...... Este comando nos agrega todos los archivos que acctualizaste de  una carpeta 
 git show .......... nos muestra todos los cambios historicos de un repositorio y quien lo hizo
 git push ...... nos permite enviar nuestro archivo a un repositorio remoto
