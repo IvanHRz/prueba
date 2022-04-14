@@ -1,3 +1,21 @@
 git init .......incializa git en la consola
-git add ........añade u documento a git
+git add ........añade un documento a git, independientemente de que silo hallas añadido antes y hayas llevado un
+                seguimiento de este archivo en git antes, para guardar sunueva version tienes que volvar a añadirlo
+                (ocupar este comando) y despues guardarlo conel comando commit, simepre hay que cumplir este ciclo.    
 git commit......guarda los cambios hechos en el documento
+git status -s...-este comando nos muestra estatus de los archivos que se encuentran en la carpeta
+                -Si inicialisaste git y al añadir un archivo y al ver su status tiene signos de interrogación rojos
+                quiere decir que git  aun no tiene un seguimiento de ese archivo                
+                si aparece una A es que git ya esta llevando un seguimiento del archivo
+                -cuando en el status de tu archivo en git aparece una M mayuscula en
+                 rojo significa que guardaste el archivo en tu programa pero que aun no lo guardas en git   
+
+git commit -m "comentario"....con esto guardamos la ultima version del documento y añadimos un comentario
+                              esta es la forma en la que guardamos y actualizamos un archivo en git.
+git log --oneline......Este comando nos sirve para ver todos los cambios que has hecho y los comentarios
+                       de tu archivo 
+ 
+
+
+
+                                  
