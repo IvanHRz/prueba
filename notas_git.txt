@@ -31,6 +31,10 @@ git pull ....... nos permite traerlos archivos de un repostorio lejado
 git commit -am “commit description”: añade al staging area y hace un commit mediante un solo comando. (No funciona con archivos nuevos)
 git tag fecha -m "comentario/etiqueta"....... con este comando podemos agregarle una etiqueta nuestro archivo 
 git push --tags ..... con este comando podemos subir nuestra etiqueta a Github 
+git clone direccion_de_github ........ con este comando podemos copiar un archivo desde nuestro repoitorio de github a una carpeta especifica
+                                       1.-copiamos el url del archivo en github, en el boton verde "code" 
+                                       2.-abrimos la consola en la carpeta que queremos colocar el archivo
+                                       3.-ponemos el comando clone y despues de un espacio pegamos la url y listo    
 git rm (. -r, filename) (–cached): remueve los archivos del index.
 git config --global user.email tu@email.com: configura un email.
 git config --global user.name <Nombre como se verá en los commits>: configura un nombre.
@@ -57,4 +61,19 @@ git branch <new branch>: crea una nueva rama.
 git checkout <branch name>: se mueve a la rama especificada.
 git merge <branch name>: fusiona la rama actual con la rama especificada y produce un nuevo commit de esta fusión.
 git branch: lista las ramas generadas.
-                                  
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ linea de comandos fuera de git++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ls........ te lista los archivos que hay en una carpeta
+ls -al ... te lista los archivos de una carpeta incluyendo los archivos ocultos y más datos especificos   
+ls -l..... te listalos archivos de lacarpeta y te muestra sus especificaciones pero no te muestra los archivos ocultos 
+ls -a..... te mostraralos archivos de la carpeta pero no en ua lista 
+clear .... limpio la pantalla de la consola 
+control + l ...limpio la consola 
+pwd ...... te muestra tu ubicacion dentro del disco c
+cat ...... nos permite ver una vista previa de un archivo en la consola 
+history... nos permite ver de forma enumerada todos los comando que hayamos escrito en la consola 
+!no.comando.... este comando nos permite escribir un comando con el numero especificado en el historial
+                ponemos un signo de exlamacion y el numero del comndo y se ejecutara 
+rm archivo.txt ....... este comando borra un archivo seleccionado 
+comando --help ....... este comando nos permite obtener informacion sobre cualquier comando  
