@@ -17,11 +17,20 @@ git log --oneline......Este comando nos sirve para ver todos los cambios que has
                        de tu archivo 
 git commit -am "comentario".....esto lo usamo principalmente para hacer el comando commit y el comando add al mismo tiempo 
                                 en un solo comentario  
+git commit --amend......con este comando podemos modificar la descripcion de un commit, con esto entramos al editor VIN 
+                        y hacemos los cambios para poder editar primero ponemos :i y eso nos habilitara la edidicion 
+                        luego tenemos que borrar carcter por caracter con la tecla suprimir y al haber borrado el titulo 
+                         anterior pulsamos la tecla scape la cual sera un comando de que terminamos la edicion que en este
+                        primer caso seria el borrar el titulo y ahora volvemos a ingresar el comando :i para volver a habilitar
+                       la edicion y ahora  escribimos el enuevo titulo, damos enter pulsamos scape y en ese momento se habra actualizado
+                       el nuevo titulo y ahora para guardar y sali del editor escribimos el comando :wq y eso seria todo   
 git add .  ...... Este comando nos agrega todos los archivos que acctualizaste de  una carpeta 
 git show .......... nos muestra todos los cambios historicos de un repositorio y quien lo hizo
 git push ...... nos permite enviar nuestro archivo a un repositorio remoto
-git push ....... nos permite traerlos archivos de u repostorio lejado   
+git pull ....... nos permite traerlos archivos de un repostorio lejado   
 git commit -am “commit description”: añade al staging area y hace un commit mediante un solo comando. (No funciona con archivos nuevos)
+git tag fecha -m "comentario/etiqueta"....... con este comando podemos agregarle una etiqueta nuestro archivo 
+git push --tags ..... con este comando podemos subir nuestra etiqueta a Github 
 git rm (. -r, filename) (–cached): remueve los archivos del index.
 git config --global user.email tu@email.com: configura un email.
 git config --global user.name <Nombre como se verá en los commits>: configura un nombre.
@@ -48,5 +57,4 @@ git branch <new branch>: crea una nueva rama.
 git checkout <branch name>: se mueve a la rama especificada.
 git merge <branch name>: fusiona la rama actual con la rama especificada y produce un nuevo commit de esta fusión.
 git branch: lista las ramas generadas.
-parrafo agregado 
                                   
