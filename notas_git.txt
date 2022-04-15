@@ -35,7 +35,13 @@ git clone direccion_de_github ........ con este comando podemos copiar un archiv
                                        1.-copiamos el url del archivo en github, en el boton verde "code" 
                                        2.-abrimos la consola en la carpeta que queremos colocar el archivo
                                        3.-ponemos el comando clone y despues de un espacio pegamos la url y listo    
-git rm (. -r, filename) (–cached): remueve los archivos del index.
+git rm (. -r, filename) (–cached)... remueve los archivos del index.
+git branch.... lista las ramas generadas.
+git branch nombre_de_una_nueva_rama ........ creas una nueva rama de trabajo
+git checkout nombre_de_la_rama ....... con esto puedes entrar a la rama en la que quieras trabajar 
+git merge <branch name>: fusiona la rama actual con la rama especificada y produce un nuevo commit de esta fusión. nota
+                         para acer lafusion debemos estar en a rama princial (master)
+
 git config --global user.email tu@email.com: configura un email.
 git config --global user.name <Nombre como se verá en los commits>: configura un nombre.
 git config --list: lista las configuraciones.
@@ -77,3 +83,29 @@ history... nos permite ver de forma enumerada todos los comando que hayamos escr
                 ponemos un signo de exlamacion y el numero del comndo y se ejecutara 
 rm archivo.txt ....... este comando borra un archivo seleccionado 
 comando --help ....... este comando nos permite obtener informacion sobre cualquier comando  
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
