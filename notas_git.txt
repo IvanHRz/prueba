@@ -8,7 +8,7 @@ git status -s...-este comando nos muestra estatus de los archivos que se encuent
                 quiere decir que git  aun no tiene un seguimiento de ese archivo                
                 si aparece una A es que git ya esta llevando un seguimiento del archivo
                 -cuando en el status de tu archivo en git aparece una M mayuscula en
-                 rojo significa que guardaste el archivo en tu programa pero que aun no lo guardas en gito que ha 
+                 rojo significa que guardaste el archivo en tu programa pero que aun no lo guardas en git o que ha 
                  tenido alguna modificacion y no lo has guardado aun   
 
 git commit -m "comentario"....con esto guardamos la ultima version del documento y añadimos un comentario
@@ -24,6 +24,7 @@ git commit --amend......con este comando podemos modificar la descripcion de un 
                         primer caso seria el borrar el titulo y ahora volvemos a ingresar el comando :i para volver a habilitar
                        la edicion y ahora  escribimos el enuevo titulo, damos enter pulsamos scape y en ese momento se habra actualizado
                        el nuevo titulo y ahora para guardar y sali del editor escribimos el comando :wq y eso seria todo   
+                        Otra forma de guardar y salir es con scape +z +z  
 git add .  ...... Este comando nos agrega todos los archivos que acctualizaste de  una carpeta 
 git show .......... nos muestra todos los cambios historicos de un repositorio y quien lo hizo
 git push ...... nos permite enviar nuestro archivo a un repositorio remoto
@@ -41,7 +42,9 @@ git branch nombre_de_una_nueva_rama ........ creas una nueva rama de trabajo
 git checkout nombre_de_la_rama ....... con esto puedes entrar a la rama en la que quieras trabajar 
 git merge <branch name>: fusiona la rama actual con la rama especificada y produce un nuevo commit de esta fusión. nota
                          para acer lafusion debemos estar en a rama princial (master)
-
+git checkout #commit archivo.txt: volvemos uestro archivo  a la version del commit indicada, sin cambiar nada en el staging 
+git checkout master archivo.txt: volvemos nuestro archivo a la version que teniamos antes de hacer el primer checkout , sin cambiar nadaen el staging 
+      
 git config --global user.email tu@email.com: configura un email.
 git config --global user.name <Nombre como se verá en los commits>: configura un nombre.
 git config --list: lista las configuraciones.
@@ -49,7 +52,10 @@ git log: lista de manera descendente los commits realizados.
 git log --stat: además de listar los commits, muestra la cantidad de bytes añadidos y eliminados en cada uno de los archivos modificados.
 git log --all --graph --decorate --oneline: muestra de manera comprimida toda la historia del repositorio de manera gráfica y embellecida.
 git show filename: permite ver la historia de los cambios en un archivo.
-git diff <commit1> <commit2>: compara diferencias entre en cambios confirmados.
+git diff <commit1> <commit2>: compara diferencias entre en cambios confirmados. este comando se usa luego de ver los commit que podemos
+                              visualizar en git log nombre_del_archivo.txt    loscommit son los numeros raros amarillos
+                              poner por lo regular la version mas actual primero y luego la antigua y lo color rojo es lo que
+                              ha cambiado y lo verde es lo que sigue igual y lo gris es lo que nunca ha cambiado. 
 git reset <commit> --soft/hard: regresa al commit especificado, eliminando todos los cambios que se hicieron después de ese commit.
 git checkout <commit/branch> <filename>: permite regresar al estado en el cual se realizó un commit o branch especificado, pero no elimina
                                           lo que está en el staging area.
@@ -67,8 +73,21 @@ git branch <new branch>: crea una nueva rama.
 git checkout <branch name>: se mueve a la rama especificada.
 git merge <branch name>: fusiona la rama actual con la rama especificada y produce un nuevo commit de esta fusión.
 git branch: lista las ramas generadas.
-
-
+git log -p- Explica el número de líneas que se cambiaron y te muestra que se cambió en el contenido.
+poniendo code en la consola de git  podemos abrir visual studio 
+git shortlog - Indica que commits ha realizado un usuario, mostrando el usuario y el titulo de sus commits.
+git log --graph --oneline --decorate y
+git log --pretty=format:"%cn hizo un commit %h el dia %cd" - Muestra mensajes personalizados de los commits.
+git log -3 - Limitamos el número de commits.
+git log --after=“2018-1-2” ,
+git log --after=“today” y
+git log --after=“2018-1-2” --before=“today” - Commits para localizar por fechas.
+git log --author=“Name Author” - Commits realizados por autor que cumplan exactamente con el nombre.
+git log --grep=“INVIE” - Busca los commits que cumplan tal cual está escrito entre las comillas.
+git log --grep=“INVIE” –i- Busca los commits que cumplan sin importar mayúsculas o minúsculas.
+git log – index.html- Busca los commits en un archivo en específico.
+git log -S “Por contenido”- Buscar los commits con el contenido dentro del archivo.
+git log > log.txt - guardar los logs en un archivo txt
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ linea de comandos fuera de git++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ls........ te lista los archivos que hay en una carpeta
 ls -al ... te lista los archivos de una carpeta incluyendo los archivos ocultos y más datos especificos   
@@ -84,28 +103,9 @@ history... nos permite ver de forma enumerada todos los comando que hayamos escr
 rm archivo.txt ....... este comando borra un archivo seleccionado 
 comando --help ....... este comando nos permite obtener informacion sobre cualquier comando  
 
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
+
+Esta es mi historia ggg
+Tengo 25 años 
+soy un idiota mantenido, si alguna vez vuelvo a ver esto espero 
+que eso halla cambiado o que este muerto.  
+Aún no muero ggg.
