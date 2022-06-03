@@ -1,3 +1,12 @@
+++++++++++++++++++++++++++Error de git 
+cuando nos lasga el error: fatal: remote origin already exists
+podemos ver en dode esta asignado el origin de git en estra pc con: git remote --verbose
+luego tenemos que reasignar el orgen al archivo que queremos subir, tenemos que poner lo siguiente:
+git remote set-url url_de_github_al_que_queremos_mandar_el_archivo
+y despues subir el archivo con:
+git push -u origin master
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
 git init .......incializa git en la consola
 git add ........añade un documento a git, independientemente de que silo hallas añadido antes y hayas llevado un
                 seguimiento de este archivo en git antes, para guardar sunueva version tienes que volvar a añadirlo
