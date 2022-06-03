@@ -16,6 +16,10 @@ git push -u origin master
 si nos aparece el error "fatal: remotoorigin ya existe" tendremos que establecer la rama principal en donde
 estamos con: git branch -M main
 y volver a poer ael comando: git push -u origin main  
+
+
+
+ojo siempre poner atencion si estamos en maste o en main antes de usar el push  
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
  
 git init .......incializa git en la consola
