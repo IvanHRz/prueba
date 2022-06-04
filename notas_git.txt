@@ -20,6 +20,20 @@ y volver a poer ael comando: git push -u origin main
 
 
 ojo siempre poner atencion si estamos en maste o en main antes de usar el push  
++++++++++++++++++++++++++++++++++++extraccion de archivo desde git hub+++++++
+
++++++++++++++++
+git pull direccion_del_archivo_a_llamar usamos este comando para mandar a 
+
+llamar a un archivo desde github tenemos que asegurarnos que en la carpeta en 
+
+donde lo mandemos a llamar tengamos inicializado git  
+
+
+git pull ....... nos permite traerlos archivos de un repostorio lejado   
+start nombre_del_archivo ..con este comando podemos iniciar un archivo no      
+
+                      lleva la pabra git
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
  
 git init .......incializa git en la consola
