@@ -171,8 +171,11 @@ para crear una rama usamos el comado: git branch nombre_de_la_rama
 con el comando: git branch        sin ningun otro parametro te mostrara las ramas que hay en ese proyecto 	
 con el comando: git chekout _nombre_de_la_rama_a_la_que_queremos_pasar con este comando podemos cambiar de rama	
 al hacer algun cambio en alguna rama tenemos que añadir y hacer commit antes de cambiar de rama 
+<<<<<<< HEAD
 
 merge
 1.-para hacer un merge (fusion de ramas) primero debemos estar en la rama master   
 2.-usar el comando: git merge _rama_secuandaria_a_fusionar 
+=======
+>>>>>>> principal_gg
 																					 
