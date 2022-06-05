@@ -31,9 +31,25 @@ donde lo mandemos a llamar tengamos inicializado git
 
 
 git pull ....... nos permite traerlos archivos de un repostorio lejado   
-start nombre_del_archivo ..con este comando podemos iniciar un archivo no      
+start nombre_del_archivo ..con este comando podemos iniciar un archivo no lleva la pabra git
 
-                      lleva la pabra git
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++tag en un programa++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+git tag titulo_del_tag -m "comentario"
+
+para subir las etiquetas ponemos 
+
+git push --tags
++++++++++++++++++++++++++++++++++++++++++++++++++clone+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+para clonar u reositorio de git e instalarloen uestra pcusamos el comando 
+
+git clone _direccion_github_del_archivo
+
+con esto desde la carpeta en donde queremos el archivo lo mandamos a llamar y se guarda
+generalmente el pull lo usaremos para actualizar un archivo de github a nuestra pc pero si on tenemos el archivo es mas facil 
+usar clone que pull y solo descargar el archivo, ya que tendiamos que hacer un git add y un git commit de nuestra carpeta vacia 
+para usar el git pull y descargar un archivo  
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
  
 git init .......incializa git en la consola
@@ -140,11 +156,4 @@ history... nos permite ver de forma enumerada todos los comando que hayamos escr
                 ponemos un signo de exlamacion y el numero del comndo y se ejecutara 
 rm archivo.txt ....... este comando borra un archivo seleccionado 
 comando --help ....... este comando nos permite obtener informacion sobre cualquier comando  
-
-
-Esta es mi historia ggg
-Tengo 25 años 
-soy un idiota mantenido, si alguna vez vuelvo a ver esto espero 
-que eso halla cambiado o que este muerto.  
-Aún no muero ggg.
 
