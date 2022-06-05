@@ -157,3 +157,18 @@ history... nos permite ver de forma enumerada todos los comando que hayamos escr
 rm archivo.txt ....... este comando borra un archivo seleccionado 
 comando --help ....... este comando nos permite obtener informacion sobre cualquier comando  
 
+++++++++++++++++++++++++++++++++++++++++++++++Ramas++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+siempre tener en cuenta que master y main es basicamete lo mismo pero que trabajan con direcciones 
+diferentes.en realidad, hasta mediados del año 2020 esta rama se llamaba "master" y no "main". Pero
+por aquel entonces, aunque existen diversas teorías sobre el origen de ese nombre, se decidió que era una
+referencia al esclavismo ("master" de "amo", frente a "slave" de "esclavo. Otras teorías hablan, con más lógica
+IMHO, de que viene de "master copy" o copia maestra o principal) y que había que renombrarla. Así que ahora es
+"main" y no "master".  
+
+
+para crear una rama usamos el comado: git branch nombre_de_la_rama 	
+con el comando: git branch        sin ningun otro parametro te mostrara las ramas que hay en ese proyecto 	
+con el comando: git chekout _nombre_de_la_rama_a_la_que_queremos_pasar con este comando podemos cambiar de rama	
+al hacer algun cambio en alguna rama tenemos que añadir y hacer commit antes de cambiar de rama 
+																					 
