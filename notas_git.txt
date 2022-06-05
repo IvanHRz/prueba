@@ -31,9 +31,25 @@ donde lo mandemos a llamar tengamos inicializado git
 
 
 git pull ....... nos permite traerlos archivos de un repostorio lejado   
-start nombre_del_archivo ..con este comando podemos iniciar un archivo no      
+start nombre_del_archivo ..con este comando podemos iniciar un archivo no lleva la pabra git
 
-                      lleva la pabra git
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++tag en un programa++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+git tag titulo_del_tag -m "comentario"
+
+para subir las etiquetas ponemos 
+
+git push --tags
++++++++++++++++++++++++++++++++++++++++++++++++++clone+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+para clonar u reositorio de git e instalarloen uestra pcusamos el comando 
+
+git clone _direccion_github_del_archivo
+
+con esto desde la carpeta en donde queremos el archivo lo mandamos a llamar y se guarda
+generalmente el pull lo usaremos para actualizar un archivo de github a nuestra pc pero si on tenemos el archivo es mas facil 
+usar clone que pull y solo descargar el archivo, ya que tendiamos que hacer un git add y un git commit de nuestra carpeta vacia 
+para usar el git pull y descargar un archivo  
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
  
 git init .......incializa git en la consola
@@ -141,10 +157,22 @@ history... nos permite ver de forma enumerada todos los comando que hayamos escr
 rm archivo.txt ....... este comando borra un archivo seleccionado 
 comando --help ....... este comando nos permite obtener informacion sobre cualquier comando  
 
+++++++++++++++++++++++++++++++++++++++++++++++Ramas++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Esta es mi historia ggg
-Tengo 25 años 
-soy un idiota mantenido, si alguna vez vuelvo a ver esto espero 
-que eso halla cambiado o que este muerto.  
-Aún no muero ggg.
+siempre tener en cuenta que master y main es basicamete lo mismo pero que trabajan con direcciones 
+diferentes.en realidad, hasta mediados del año 2020 esta rama se llamaba "master" y no "main". Pero
+por aquel entonces, aunque existen diversas teorías sobre el origen de ese nombre, se decidió que era una
+referencia al esclavismo ("master" de "amo", frente a "slave" de "esclavo. Otras teorías hablan, con más lógica
+IMHO, de que viene de "master copy" o copia maestra o principal) y que había que renombrarla. Así que ahora es
+"main" y no "master".  
 
+
+para crear una rama usamos el comado: git branch nombre_de_la_rama 	
+con el comando: git branch        sin ningun otro parametro te mostrara las ramas que hay en ese proyecto 	
+con el comando: git chekout _nombre_de_la_rama_a_la_que_queremos_pasar con este comando podemos cambiar de rama	
+al hacer algun cambio en alguna rama tenemos que añadir y hacer commit antes de cambiar de rama 
+
+merge
+1.-para hacer un merge (fusion de ramas) primero debemos estar en la rama master   
+2.-usar el comando: git merge _rama_secuandaria_a_fusionar 
+																					 
