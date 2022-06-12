@@ -115,7 +115,8 @@ git clone direccion_de_github ........ con este comando podemos copiar un archiv
 git rm (. -r, filename) (–cached)... remueve los archivos del index.
 git branch.... lista las ramas generadas.
 git branch nombre_de_una_nueva_rama ........ creas una nueva rama de trabajo
-git checkout nombre_de_la_rama ....... con esto puedes entrar a la rama en la que quieras trabajar 
+git checkout nombre_de_la_rama ....... con esto puedes entrar a la rama en la que quieras trabajar pero siempre 
+                                       tenemos que hacer un commit en la rama que estamos apunto de abandonar antes de hacer cambiar de rama 
 git merge <branch name>: fusiona la rama actual con la rama especificada y produce un nuevo commit de esta fusión. nota
                          para acer lafusion debemos estar en a rama princial (master)
 git checkout #commit archivo.txt: volvemos uestro archivo  a la version del commit indicada, sin cambiar nada en el staging 
