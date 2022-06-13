@@ -195,6 +195,14 @@ al hacer algun cambio en alguna rama tenemos que añadir y hacer commit antes de
 merge
 1.-para hacer un merge (fusion de ramas) primero debemos estar en la rama master   
 2.-usar el comando: git merge _rama_secuandaria_a_fusionar 
+Los merges también son commits.
+Los merges pueden generar conflictos, esto aborta la acción y pide que soluciones el problema manualmente,
+aceptando o rechazando los cambios que vienen.
+
+Cómo revertir un merge
+Si nos hemos equivocado y queremos cancelar el merge, debemos usar el siguiente comando:
+
+git merge --abort
 
 brach -d nombre_de_la_rama_a_borrar
 este comando borra una rama
